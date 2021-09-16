@@ -10,15 +10,15 @@ This function returns whether one string(which is shorter) is an abbreviation fo
 Example 1.
 `echo getStrMatching("by the way", "btw")`
 The result is
-`1`
+`1`.
 
 Example 2.
 `echo getStrMatching("by the way", "btway")`
 The result is also
-`1`
+`1`.
 
 Example 3.
 `echo getStrMatching("By the way", "btway")`
 The result is
 `0.8`
-Because "b" is not used in "By the way"
+Because "b" is not used in "By the way".
